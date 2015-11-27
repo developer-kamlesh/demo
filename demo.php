@@ -9,8 +9,9 @@
    <?php 
 	 echo $_SERVER['REMOTE_ADDR'];
 	 while (list ($key, $val) = each ($_SERVER)) {
-		$key -> $val
+		$key -> $val;
 	}
+	echo 'Scrum Master';
  ?> 
 </body>
 </html>
