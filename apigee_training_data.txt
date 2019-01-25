@@ -1,0 +1,31 @@
+https://github.com/eswaribala/rps_fiserv_2019
+https://rpsfiserv-cf.cfapps.io/
+
+// Load the http module to create an http server.
+var http = require('http');
+
+// Configure our HTTP server to respond with Hello World to all requests.
+var server = http.createServer(function (request, response) {
+  response.writeHead(200, {"Content-Type": "text/plain"});
+  response.end("Fiserv nodejs started functioning\n");
+});
+
+// Listen on port 8000, IP defaults to 127.0.0.1
+server.listen(3000);
+
+// Put a friendly message on the terminal
+console.log("Server running at http://127.0.0.1:3000/");
+
+To deploy the NodeJs Module:
+apigeetool deploynodeapp -n expressapp[myNodeApp] -d . -m server.js[fileName] -o organizationname[kamlesh07272-eval] -eval -e test -b /myNodeApp -u username -p password
+
+
+
+Consumer Key: sQP2zGLYzqFyEdHcyepoqK0zL4TT8GyH
+
+Contry API KEY: 
+
+curl -v -h "x-apikey:sQP2zGLYzqFyEdHcyepoqK0zL4TT8GyH"
+url: https://kamlesh07272-eval-test.apigee.net/getcustomers
+
+
