@@ -1,6 +1,16 @@
 https://github.com/eswaribala/rps_fiserv_2019
 https://rpsfiserv-cf.cfapps.io/
 
+https://pivotal.io/
+
+https://restcountries.eu/
+
+https://jsonplaceholder.typicode.com/comments
+
+https://market-data.xignite.com/Trial.html
+
+http://ws.cdyne.com/ip2geo/ip2geo.asmx/ResolveIP
+
 // Load the http module to create an http server.
 var http = require('http');
 
